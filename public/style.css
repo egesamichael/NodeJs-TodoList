@@ -1,0 +1,19 @@
+.mylist {
+    list-style: none;
+}
+
+.card-complete {
+    background: #009E60;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+}
+
+.card-pending {
+    background: #efefef;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+}
