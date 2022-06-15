@@ -21,7 +21,7 @@
 <br>
   <div class="row"><div class="col-md-6">
 
-    <h6 class="display-4"> Pending Task </h6>
+    <h6 class="display-4"> Pending Tasks </h6>
     <% for( var i = 0; i < task.length; i++){ %>
      <div class="card-pending"><li class="mylist"><input type="checkbox" name="check" value="<%= task[i] %>" /> <%= task[i] %> </li></div> 
       <% } %>
@@ -34,7 +34,7 @@
 
   <div class="col-md-6">
 
-    <h6 class="display-4"> Completed task </h6>
+    <h6 class="display-4"> Completed Tasks </h6>
 
     <% for(var i = 0; i < complete.length; i++){ %>
      <div class="card-complete"><li class="mylist"><input type="checkbox" checked> <%= complete[i] %> </li></div> 
